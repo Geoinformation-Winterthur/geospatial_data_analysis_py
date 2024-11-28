@@ -8,13 +8,13 @@ Dies ist das Repository für **öffentliche** Skripte, die bei Geoinformation Wi
 
 In den einzelnen Analysis-Projekten (Unterordnern wie z.B. `Amt für Städtebau/Gebäude_in_Pünten_als_SHP`) sind die Bibliotheken aus `requirements.txt` zu installieren. Dazu muss im jeweiligen Pipeline-Projekt-Ordner ein **Python Virtual Environment** (_venv_) installiert werden (dazu im Projekt-Verzeichnis also z.B. in `Amt für Städtebau/Gebäude_in_Pünten_als_SHP` aufzurufen):
 
-- `python3 -m venv venv` (Linux)
-- `python -m venv venv` (Windows)
+- `python3 -m venv .venv` (Linux)
+- `python -m venv .venv` (Windows)
 
 Danach kann das neu erstellte _venv_ des Projekts aktiviert werden mit dem Befehl: 
 
-- `source venv/bin/activate` (Linux)
-- `source venv/Scripts/activate` (Windows)
+- `source .venv/bin/activate` (Linux)
+- `source .venv/Scripts/activate` (Windows)
 
 Anschliessend können Bibliotheken in _venv_ installiert werden:
 
